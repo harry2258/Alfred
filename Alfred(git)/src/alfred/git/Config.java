@@ -72,9 +72,9 @@ public class Config {
 			conf.setProperty("BOT-REALNAME", "Alphabot|batman");
 			conf.setProperty("IDENTIFY-WITH-NICKSERV", true);
 			conf.setProperty("NICKSERV-PASS", "Change This!");
-			conf.setProperty("CHANNELS","#batman #flakeynoobzone #randomcraft #batbot #FNZftb");
+			conf.setProperty("CHANNELS","#batman");
 			conf.setProperty("VERIFY-BOT-ADMINS", true);
-			conf.setProperty("BOT-ADMINS","batman zack6849 Skierz batman|college TNTUP");
+			conf.setProperty("BOT-ADMINS","batman");
 			conf.setProperty("EXEC-ADMINS","batman");
 			conf.setProperty("ALLOW-FILE-TRANSFER", false);
 			conf.setProperty("PUBLIC-IDENTIFIER", "`");

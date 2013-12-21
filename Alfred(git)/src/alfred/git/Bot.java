@@ -73,19 +73,6 @@ public class Bot extends ListenerAdapter{
         } catch (Exception e) {
             e.printStackTrace();
         }
-    bot.sendRawLineNow("nick Alfred");
-    }
-    
-    public static void sendmessage(MessageEvent e) {
-        int inChar;
-        System.out.println("Enter a Character:");
-        try {
-            inChar = System.in.read();
-            System.out.print("You entered ");
-            System.out.println(inChar);
-        } catch (IOException ex){
-            System.out.println("Error reading from user");
-        }
     }
     
     @Override
@@ -415,9 +402,6 @@ public class Bot extends ListenerAdapter{
         }
         if (command.equalsIgnoreCase("usage")) {
             Commands.usage(e);
-        }
-        if (command.equalsIgnoreCase("consoletext")){
-            Bot.sendmessage(e);
         }
     }
     
